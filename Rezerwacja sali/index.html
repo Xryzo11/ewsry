@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Rezerwacja sali</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <form>
+            Rezerwacja sali
+            <br><label>Podaj nazwisko </label><input type="text" size="7">
+            <br><label>Podaj rodzaj imprezy </label>
+            <select>
+                <option value="typeS">ślub</option>
+                <option value="typeC">chrzciny</option>
+                <option value="type18">18-tka</option>
+            </select>
+            <br><label>Podaj zdjęcie sali </label>
+            <select>
+                <option value="photoS">ślub</option>
+                <option value="photoC">chrciny</option>
+                <option value="photo18">18-tka</option>
+            </select>
+            <br><label>Ilość osób </label><input type="number" style="width:70px;">
+            <br><label>Wersja wzbogacona (większa o 20zł od podstawy) </label><input type="checkbox">
+            <br><label>Oblicz koszt imprezy (2000zł + 200zł od osoby) </label><input type="button" value="     ">
+        </form>
+    </body>
+</html>
